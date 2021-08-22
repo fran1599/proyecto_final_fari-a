@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Habla con nosotrxs - Contactos - RRSS">
+    <meta name="keywords" content="CONTACTO, COMUNICACIÓN, HABLAR CON CUTI">
+    <title>Contacto CUTI</title>
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="fixed-top">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="btn" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="btn dropdown-toggle"  data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Sobre nosotrxs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./sobre_nosotrxs.html"> ¿Qué es CUTI?</a></li>
+                        <li><a class="dropdown-item" href="#comoSomos"> ¿Cómo somos?</a></li>
+                        <li><a class="dropdown-item" href="#manifiesto"> Manifiesto</a></li>
+                        <li><a class="dropdown-item" href="#12principios"> 12 Principios</a></li>
+                        <li><a class="dropdown-item" href="#areasDeTrabajo"> Áreas de trabajo</a></li>
+                        <li><a class="dropdown-item" href="#personas"> Personas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="btn  dropdown-toggle"  data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Nuestros proyectos</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./fica.html">Festival Internacional de Cine Austral</a></li>
+                        <li><a class="dropdown-item" href="./OLA.html">Otro Lado Records</a></li>
+                        <li><a class="dropdown-item" href="./contracultura.html">Contracultura</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="btn " href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h3 class="tituloCentrado mt-5 pt-4">HABLA CON NOSOTRXS</h3>
+    
+    <div class="container">
+        <form action="" method="GET" enctype="text/plain" >
+            <legend id="dejanosTuMensaje">Dejanos tu mensaje, consulta o sugerencia</legend>
+                <input type="text" name="Nombre" placeholder="nombre/nombre y apellido/apodo"> <br>
+                <input type="text" name="Contacto" placeholder="mail/teléfono/redes"> <br>
+            
+
+            <!--selección de proyecto mediante el desplegable-->
+                <div>
+                    <select name="proyecto">
+                        <option value="OLA">Otro Lado Records (OLA)</option>
+                        <option value="FICA">Festival Internacional de Cine Austral (FICA)</option>
+                        <option value="Contracultura">Contracultura</option>
+                        <option value="Todos">Todos</option>
+                    </select> <label for="proyecto">Proyecto por el que se origina el contacto</label> <br>
+                </div>
+                <textarea name="Mensaje"  cols="80" rows="7" placeholder="Leemos lo que nos quieras decir!"></textarea> <br>
+                <div>
+                    <label for="aceptoNewsLetter">Si, acepto suscribirme al NewsLetter</label>
+                    <input type="checkbox" name="aceptoNewsLetter"> <br>
+                    <input type="reset" value="Limpiar formulario" class="boton">
+                    <input type="submit" value="Enviar mensaje" class="boton">
+                </div>
+        </form> 
+    </div>
+    <hr>
+    
+    <h3 class="tituloCentrado">O comunicate a nuestros canales de contacto</h3>
+
+
+    <hr> <!---Comienzo del footer (aún no está definido el contenido del mismo)-->
+
+    <footer class="footer">
+        Página realizada para trabajo final del curso de desarrollo web de Coderhouse, por Franco Fariña.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
