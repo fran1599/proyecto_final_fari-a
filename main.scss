@@ -1,0 +1,17 @@
+// variables
+$color_1: rgba(255, 179, 238, 0.596);
+$color_2: rgba(196, 125, 180, 0.596);
+$primary: rgba(232, 245, 255, 0.8);
+$secondary: rgba(210, 209, 248, 0.644);
+$body-bg: $color_1;
+$sombreado: 3px 3px 20px rgba(88, 88, 88, 0.4%);
+$sombreado-2: 5px 5px 50px rgba(0, 0, 0, 40%);
+$negrita: 900;
+$ancho: 50vh;
+$dropdown-bg: $primary;
+$dropdown-link-hover-bg: $color_2;
+$body-color: black;
+
+//imports
+@import "scss/_base";
+@import "node_modules/bootstrap/scss/bootstrap";
