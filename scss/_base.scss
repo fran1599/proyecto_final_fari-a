@@ -7,3 +7,11 @@
 
 .carousel-inner {height: 100vh;width: 100vw;}
 
+.padT {
+    padding-top: 70px;
+    @media (max-width: 495px) {
+    padding-top: 110px;}
+    @media (max-width: 285px)  {
+    padding-top: 160px;
+    }
+}
