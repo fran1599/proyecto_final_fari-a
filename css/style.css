@@ -33,6 +33,48 @@ footer {
   margin: 10px 0px 0px;
   padding-top: 4vh; }
 
+div form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 4vh; }
+  div form div {
+    padding: 20px 20px 20px 0px; }
+  div form input {
+    width: 50vh;
+    margin: 0px; }
+  div form .boton {
+    box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.4);
+    font-weight: 300;
+    width: 50vh;
+    margin: 10px; }
+
+#aplica {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 4vw; }
+  #aplica li a img {
+    box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.4);
+    border-radius: 1vw;
+    margin: 0px;
+    width: 19vw;
+    height: 5vw;
+    transition: all 0.5s; }
+  #aplica li a img:hover {
+    box-shadow: 5px 5px 50px black; }
+  #aplica .btnLink {
+    transition: all 0.3s;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 1vw; }
+  #aplica .btnLink:hover {
+    transform: scale(1.05);
+    padding: 0px; }
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -1,0 +1,32 @@
+#aplica {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw;
+    li {
+        a {
+            img {
+                box-shadow: $sombreado;
+                border-radius: 1vw;
+                margin: 0px;
+                width: 19vw;
+                height: 5vw;
+                transition: all 0.5s;
+            }
+            img:hover {
+                box-shadow: $sombreado-2
+            }
+        }
+    } 
+    .btnLink {
+        transition: all 0.3s;
+        padding: 0px;
+        margin: 0px;
+        border: 2px solid black;
+        border-radius: 1vw;
+    }
+    .btnLink:hover {
+        transform: scale(1.05);
+        padding: 0px;
+    }
+}
